@@ -1,4 +1,5 @@
 package leetcode.lesson;
 
-public class Lesson001 {
+public class LeetCode001 {
+
 }
