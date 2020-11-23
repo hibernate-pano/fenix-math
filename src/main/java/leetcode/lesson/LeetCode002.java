@@ -35,7 +35,7 @@ public class LeetCode002 {
                 list.add(num);
             }
         }
-        return 0;
+        return -1;
     }
 
 
@@ -51,8 +51,21 @@ public class LeetCode002 {
                 return nums[i];
             }
         }
-        return 0;
+        return -1;
     }
 
-
+    /**
+     * 0 ～ n-1 范围内的数，分别还原到对应的位置上，如：数字 2 交换到下标为 2 的位置。
+     * 若交换过程中发现重复，则直接返回。
+     */
+    public int findRepeatNumber2(int[] nums) {
+        int[] ints = new int[nums.length];
+        for (int num : nums) {
+            ints[num]++;
+            if (ints[num] > 1) {
+                return num;
+            }
+        }
+        return -1;
+    }
 }
