@@ -27,7 +27,7 @@ package leetcode.lesson;
  *
  * @author pano
  */
-public class LeetCode001 {
+public class LeetCode196 {
 
     public static int rob(int[] nums) {
         int pre2 = 0, pre1 = 0;
