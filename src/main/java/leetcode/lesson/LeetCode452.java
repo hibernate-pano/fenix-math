@@ -1,5 +1,7 @@
 package leetcode.lesson;
 
+import java.util.Arrays;
+
 /**
  * @author pano
  * 在二维空间中有许多球形的气球。对于每个气球，提供的输入是水平方向上，气球直径的开始和结束坐标。
@@ -30,8 +32,25 @@ package leetcode.lesson;
  */
 public class LeetCode452 {
 
+    /**
+     * 思路1：取交集，有交集拿交集，没有交集，拿当前个体全部
+     * -231 <= xstart < xend <= 231 - 1
+     */
     public int findMinArrowShots(int[][] points) {
-        
+        int offset = 231;
+        int[] nums = new int[offset * 2];
+        //算出所有覆盖范围
+        for (int[] point : points) {
+            for (int i = point[0]; i < point[1] + 1; i++) {
+                nums[i + offset]++;
+            }
+        }
+        Arrays.sort(nums);
+        for (int i = nums.length - 1; i > -1; i--) {
+            if (nums[i] == nums[i - 1]){
+
+            }
+        }
 
         return -1;
     }
