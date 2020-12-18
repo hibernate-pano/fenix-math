@@ -1,4 +1,4 @@
-package leetcode.lesson;
+package leetcode;
 
 import javax.swing.tree.TreeNode;
 
@@ -17,7 +17,7 @@ import javax.swing.tree.TreeNode;
  * 4  5 6
  * 输出: 6
  */
-public class LeetCode222 {
+public class Leet222 {
 
     /**
      * Definition for a binary tree node.

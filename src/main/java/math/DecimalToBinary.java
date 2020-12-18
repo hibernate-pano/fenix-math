@@ -1,4 +1,4 @@
-package math.lesson;
+package math;
 
 /**
  * 课后习题
@@ -10,7 +10,7 @@ package math.lesson;
  *
  * @author pano
  */
-public class Lesson001 {
+public class DecimalToBinary {
 
     /**
      * 1. 位移法：decimal&1 判断最后一位是0还是1，然后>>1，依次对比最后reverse

@@ -1,4 +1,4 @@
-package leetcode.lesson;
+package leetcode;
 
 
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.Objects;
  * @author pano
  * 反转链表
  */
-public class LeetCode206 {
+public class Leet206 {
 
     static class ListNode {
 

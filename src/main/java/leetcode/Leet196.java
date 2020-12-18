@@ -1,4 +1,4 @@
-package leetcode.lesson;
+package leetcode;
 
 /**
  * 198.打家劫舍
@@ -27,7 +27,7 @@ package leetcode.lesson;
  *
  * @author pano
  */
-public class LeetCode196 {
+public class Leet196 {
 
     public static int rob(int[] nums) {
         int pre2 = 0, pre1 = 0;

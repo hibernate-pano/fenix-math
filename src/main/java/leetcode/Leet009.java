@@ -1,4 +1,4 @@
-package leetcode.lesson;
+package leetcode;
 
 import java.util.Objects;
 
@@ -11,7 +11,7 @@ import java.util.Objects;
  *
  * @author pano
  */
-public class LeetCode009 {
+public class Leet009 {
 
     public static void main(String[] args) {
 

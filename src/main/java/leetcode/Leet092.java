@@ -1,11 +1,11 @@
-package leetcode.lesson;
+package leetcode;
 
 import java.util.Objects;
 
 /**
  * @author pano
  */
-public class LeetCode092 {
+public class Leet092 {
 
     static class ListNode {
         int val;

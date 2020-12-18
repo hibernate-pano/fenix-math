@@ -1,4 +1,4 @@
-package leetcode.lesson;
+package leetcode;
 
 import java.util.Arrays;
 
@@ -30,7 +30,7 @@ import java.util.Arrays;
  * points[i].length == 2
  * -231 <= xstart <xend <= 231 - 1
  */
-public class LeetCode452 {
+public class Leet452 {
 
     /**
      * 思路1：取交集，有交集拿交集，没有交集，拿当前个体全部
